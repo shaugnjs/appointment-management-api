@@ -47,33 +47,32 @@ A modern full-stack appointment booking system built with MERN stack (MongoDB, E
 ## 🛠️ Installation
 
 ### Prerequisites
-```bash
 - Node.js (v14 or higher)
 - MongoDB
 - npm/yarn
 
-### Backend Setup
-# Navigate to backend directory
-cd appointment-system
+# Backend Setup
+### Navigate to backend directory
+`cd appointment-system`
 
-# Install dependencies
-npm install
+### Install dependencies
+`npm install`
 
-# Set up environment variables
-cp .env.example .env
+### Set up environment variables
+`cp .env.example .env`
 
-# Start development server
-npm run dev
+### Start development server
+`npm run dev`
 
-### Frontend Setup
-# Navigate to frontend directory
-cd appointment-frontend
+# Frontend Setup
+### Navigate to frontend directory
+`cd appointment-frontend`
 
-# Install dependencies
-npm install
+### Install dependencies
+`npm install`
 
-# Start development server
-npm run dev
+### Start development server
+`npm run dev`
 
 ### 🔑 Environment Variables
 - PORT=3000
