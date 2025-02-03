@@ -39,7 +39,7 @@ A full-stack appointment booking system built with Node.js/Express.js backend an
 
 git clone (https://github.com/shaugnjs/appointment-management-api)
 
-Backend Setup
+2. Backend Setup
 
 cd appointment-system
 npm install
@@ -50,7 +50,7 @@ npm install
 # JWT_EXPIRE=24h
 npm run dev
 
-Frontend Setup
+3. Frontend Setup
 
 cd appointment-frontend
 npm install
@@ -62,13 +62,13 @@ POST /api/auth/register - Register new customer
 POST /api/auth/login - Login
 POST /api/auth/logout - Logout
 
-Customer Routes
+4. Customer Routes
 
 GET /api/appointments - Get user appointments
 POST /api/appointments - Create appointment
 DELETE /api/appointments/:id - Cancel appointment
 
-Admin Routes
+5. Admin Routes
 
 GET /api/admin/appointments - Get all appointments
 PATCH /api/admin/appointments/:id - Update appointment status
