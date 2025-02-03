@@ -1,77 +1,90 @@
-# Appointment Management System
+# Appointment Management System 🗓️
 
-A full-stack appointment booking system built with Node.js/Express.js backend and React frontend.
+A modern full-stack appointment booking system built with MERN stack (MongoDB, Express.js, React, Node.js).
 
-## Features
+## ✨ Features
 
-- User Authentication (JWT)
-- Role-based access (Admin/Customer)
-- Service Management
-- Appointment Booking System
-- Admin Dashboard with sorting capabilities
-- Responsive Design
+### 👥 User Management
+- Customer and Admin roles
+- JWT Authentication
+- Secure password hashing
+- Protected routes
 
-## Tech Stack
+### 📅 Appointments
+- Book new appointments
+- View appointment history
+- Cancel appointments
+- Time slot management
+- Status tracking (pending, accepted, cancelled)
+
+### 🛠️ Admin Dashboard
+- Comprehensive appointment overview
+- Service management
+- Sort and filter appointments
+- Status management
+- User management
+
+### 💼 Services
+- Service catalog
+- Duration and pricing
+- Service descriptions
+- Availability management
+
+## 🚀 Tech Stack
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB
+- Node.js & Express.js
+- MongoDB with Mongoose
 - JWT Authentication
-- Mongoose
+- RESTful API architecture
 
 ### Frontend
-- React
-- React Router DOM
+- React 18
+- React Router v6
 - Tailwind CSS
 - Axios
 
-## Getting Started
+## 🛠️ Installation
 
 ### Prerequisites
-- Node.js
+```bash
+- Node.js (v14 or higher)
 - MongoDB
-- Git
+- npm/yarn
 
-### Installation
-
-1. Clone the repository
-
-git clone (https://github.com/shaugnjs/appointment-management-api)
-
-2. Backend Setup
-
+### Backend Setup
+# Navigate to backend directory
 cd appointment-system
+
+# Install dependencies
 npm install
-# Create .env file with:
-# PORT=3000
-# MONGODB_URI=mongodb://localhost:27017/appointment-system
-# JWT_SECRET=your_jwt_secret_key
-# JWT_EXPIRE=24h
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development server
 npm run dev
 
-3. Frontend Setup
-
+### Frontend Setup
+# Navigate to frontend directory
 cd appointment-frontend
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
-API Endpoints
-Auth Routes
 
-POST /api/auth/register - Register new customer
-POST /api/auth/login - Login
-POST /api/auth/logout - Logout
+### 🔑 Environment Variables
+- PORT=3000
+- MONGODB_URI=mongodb://localhost:27017/appointment-system
+- JWT_SECRET=your_jwt_secret_key
+- JWT_EXPIRE=24h
 
-4. Customer Routes
-
-GET /api/appointments - Get user appointments
-POST /api/appointments - Create appointment
-DELETE /api/appointments/:id - Cancel appointment
-
-5. Admin Routes
-
-GET /api/admin/appointments - Get all appointments
-PATCH /api/admin/appointments/:id - Update appointment status
-POST /api/admin/services - Add new service
-PUT /api/admin/services/:id - Update service
-DELETE /api/admin/services/:id - Delete service
+### Developers
+- Saulog, Sean Johnson
+- Dela Cruz, Dean Allen
+- Ompaling, Irine
+- Lim, Mikaela
+- Sinlao, Lui Ranz
+- Rezano, Zyrell
